@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra("hej", "Hejsan och välkommen!");
                 startActivity(intent);
             }
         });
